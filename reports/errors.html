@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title> &raquo; Compilation errors</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+    <link href="../css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet" media="all"/>
+    <link href="../css/template.css" rel="stylesheet" media="all"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5.js"></script>
+    <![endif]-->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.smooth-scroll.js"></script>
+    <script src="../js/prism.min.js"></script>
+    <!-- TODO: Add http://jscrollpane.kelvinluck.com/ to style the scrollbars for browsers not using webkit-->
+    <link rel="shortcut icon" href="../images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <i class="icon-ellipsis-vertical"></i>
+            </a>
+            <a class="brand" href="../index.html">API Documentation</a>
+
+            <div class="nav-collapse">
+                <ul class="nav pull-right">                    <li class="dropdown" id="charts-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Charts <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../graphs/class.html">
+                                    <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="reports-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Reports <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../reports/errors.html">                                    <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">243</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/markers.html">                                    <i class="icon-list-alt"></i>&#160;Markers <span class="label label-info pull-right">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/deprecated.html">                                    <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--<div class="go_to_top">-->
+    <!--<a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>-->
+    <!--</div>-->
+</div>
+
+<div id="___" class="container-fluid">    <section class="row-fluid">
+        <div class="span2 sidebar">
+
+            <ul class="side-nav nav nav-list">
+                <li class="nav-header">Navigation</li>                        <li><a href="#header.inc.php"><i class="icon-file"></i>header.inc.php</a></li>                        <li><a href="#profileActions.php"><i class="icon-file"></i>profileActions.php</a></li>                        <li><a href="#register.php"><i class="icon-file"></i>register.php</a></li>                        <li><a href="#publicFunctions.php"><i class="icon-file"></i>publicFunctions.php</a></li>                        <li><a href="#generalActions.php"><i class="icon-file"></i>generalActions.php</a></li>                        <li><a href="#dataActions.php"><i class="icon-file"></i>dataActions.php</a></li>                        <li><a href="#civActions.php"><i class="icon-file"></i>civActions.php</a></li>                        <li><a href="#ncicAdminActions.php"><i class="icon-file"></i>ncicAdminActions.php</a></li>                        <li><a href="#logout.php"><i class="icon-file"></i>logout.php</a></li>                        <li><a href="#search_plate.php"><i class="icon-file"></i>search_plate.php</a></li>                        <li><a href="#ncic.php"><i class="icon-file"></i>ncic.php</a></li>                        <li><a href="#adminActions.php"><i class="icon-file"></i>adminActions.php</a></li>                        <li><a href="#index.php"><i class="icon-file"></i>index.php</a></li>                        <li><a href="#search_name.php"><i class="icon-file"></i>search_name.php</a></li>                        <li><a href="#jquery-colsolidated.inc.php"><i class="icon-file"></i>jquery-colsolidated.inc.php</a></li>                        <li><a href="#responderActions.php"><i class="icon-file"></i>responderActions.php</a></li>                        <li><a href="#dispatchActions.php"><i class="icon-file"></i>dispatchActions.php</a></li>            </ul>
+        </div>
+
+        <div class="span10 offset2">
+            <ul class="breadcrumb">
+                <li><a href="../"><i class="icon-remove-sign"></i></a><span class="divider">\</span></li>
+                <li>Compilation Errors</li>
+            </ul>                <div class="package-contents">                        <a name="header.inc.php" id="header.inc.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>header.inc.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="profileActions.php" id="profileActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>profileActions.php
+                            <small style="float: right;padding-right: 10px;">4</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>32</td>
+                                        <td>No summary for function \updateProfile()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>73</td>
+                                        <td>No summary for function \getMyRank()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>104</td>
+                                        <td>No summary for function \changePassword()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                </div>                <div class="package-contents">                        <a name="register.php" id="register.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>register.php
+                            <small style="float: right;padding-right: 10px;">3</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>23</td>
+                                        <td>No summary for function \register()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>111</td>
+                                        <td>No summary for function \civreg()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="publicFunctions.php" id="publicFunctions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>publicFunctions.php
+                            <small style="float: right;padding-right: 10px;">27</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>44</td>
+                                        <td>No summary for function \getAgencies()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>70</td>
+                                        <td>No summary for function \getAgenciesWarrants()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>102</td>
+                                        <td>No summary for function \getLicenseStatuses()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>147</td>
+                                        <td>No summary for function \getLicenseTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>186</td>
+                                        <td>No summary for function \getLicenseClasses()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>232</td>
+                                        <td>No summary for function \getLicenseIssuers()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>278</td>
+                                        <td>No summary for function \getPlateRegisrars()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>322</td>
+                                        <td>No summary for function \getGenders()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>360</td>
+                                        <td>No summary for function \getIncidentTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>397</td>
+                                        <td>No summary for function \getRaces()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>435</td>
+                                        <td>Argument $tableName is missing from the Docblock of getData2</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>435</td>
+                                        <td>Argument $column1 is missing from the Docblock of getData2</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>435</td>
+                                        <td>Argument $column2 is missing from the Docblock of getData2</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>435</td>
+                                        <td>No summary for function \getData2()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>Argument $tableName is missing from the Docblock of getData3</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>Argument $column1 is missing from the Docblock of getData3</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>Argument $column2 is missing from the Docblock of getData3</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>Argument $column3 is missing from the Docblock of getData3</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>469</td>
+                                        <td>No summary for function \getData3()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $dataSet is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $column1 is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $column2 is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $leadTrim is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $followTrim is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>Argument $modeIs is missing from the Docblock of getDataSetTable</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>No summary for function \getDataSetTable()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="generalActions.php" id="generalActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>generalActions.php
+                            <small style="float: right;padding-right: 10px;">41</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>91</td>
+                                        <td>No summary for function \quickStatus()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>133</td>
+                                        <td>No summary for function \getMyCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>280</td>
+                                        <td>No summary for function \checkTones()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>318</td>
+                                        <td>No summary for function \setTone()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>365</td>
+                                        <td>No summary for function \logoutUser()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>393</td>
+                                        <td>No summary for function \changeStatus()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>557</td>
+                                        <td>No summary for function \deleteDispatcher()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>581</td>
+                                        <td>Argument $dep is missing from the Docblock of setDispatcher</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>581</td>
+                                        <td>No summary for function \setDispatcher()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>618</td>
+                                        <td>No summary for function \getAOP()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>656</td>
+                                        <td>No summary for function \getDispatchers()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>712</td>
+                                        <td>No summary for function \getDispatchersMDT()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>746</td>
+                                        <td>Argument $dep is missing from the Docblock of setUnitActive</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>746</td>
+                                        <td>No summary for function \setUnitActive()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>783</td>
+                                        <td>No summary for function \getAvailableUnits()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>855</td>
+                                        <td>No summary for function \getUnAvailableUnits()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>928</td>
+                                        <td>Argument $callsign is missing from the Docblock of getIndividualStatus</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>928</td>
+                                        <td>No summary for function \getIndividualStatus()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>978</td>
+                                        <td>No summary for function \getIncidentType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1007</td>
+                                        <td>No summary for function \getStreet()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1035</td>
+                                        <td>No summary for function \getActiveUnits()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1066</td>
+                                        <td>No summary for function \getActiveUnitsModal()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1097</td>
+                                        <td>No summary for function \getActiveCalls()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1198</td>
+                                        <td>No summary for function \getActivePersonBOLO()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1299</td>
+                                        <td>Argument $callId is missing from the Docblock of getUnitsOnCall</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1299</td>
+                                        <td>No summary for function \getUnitsOnCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1341</td>
+                                        <td>No summary for function \getCallDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1382</td>
+                                        <td>No summary for function \getCivilianNamesOption()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1410</td>
+                                        <td>No summary for function \getCitations()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1445</td>
+                                        <td>No summary for function \getVehicleMakes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1482</td>
+                                        <td>No summary for function \getVehicleModels()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1519</td>
+                                        <td>No summary for function \getVehicle()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1593</td>
+                                        <td>No summary for function \getColors()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1623</td>
+                                        <td>No summary for function \getCivilianNames()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1653</td>
+                                        <td>No summary for function \callCheck()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1709</td>
+                                        <td>No summary for function \getWeapons()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1739</td>
+                                        <td>No summary for function \rms_warnings()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1801</td>
+                                        <td>No summary for function \rms_citations()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1865</td>
+                                        <td>No summary for function \rms_arrests()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1929</td>
+                                        <td>No summary for function \rms_warrants()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="dataActions.php" id="dataActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>dataActions.php
+                            <small style="float: right;padding-right: 10px;">38</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>173</td>
+                                        <td>No summary for function \getCitationTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>267</td>
+                                        <td>No summary for function \getCitationTypeDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>304</td>
+                                        <td>No summary for function \editCitationType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>340</td>
+                                        <td>No summary for function \deleteCitationType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>383</td>
+                                        <td>No summary for function \getDepartments()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>482</td>
+                                        <td>No summary for function \getDepartmentDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>522</td>
+                                        <td>No summary for function \editDepartment()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>561</td>
+                                        <td>No summary for function \deleteDepartment()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>604</td>
+                                        <td>No summary for function \getIncidentTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>699</td>
+                                        <td>No summary for function \getIncidentTypeDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>736</td>
+                                        <td>No summary for function \editIncidentType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>774</td>
+                                        <td>No summary for function \deleteIncidentType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>817</td>
+                                        <td>No summary for function \getRadioCodes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>911</td>
+                                        <td>No summary for function \getRadioCodeDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>948</td>
+                                        <td>No summary for function \editRadioCode()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>986</td>
+                                        <td>No summary for function \deleteRadioCode()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1028</td>
+                                        <td>No summary for function \getStreets()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1121</td>
+                                        <td>No summary for function \getStreetDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1158</td>
+                                        <td>No summary for function \editStreet()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1196</td>
+                                        <td>No summary for function \deleteStreet()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1238</td>
+                                        <td>No summary for function \getVehicles()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1333</td>
+                                        <td>No summary for function \getVehicleDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1376</td>
+                                        <td>No summary for function \editVehicle()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1414</td>
+                                        <td>No summary for function \deleteVehicle()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1459</td>
+                                        <td>No summary for function \getWarningTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1549</td>
+                                        <td>No summary for function \getWarningTypeDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1585</td>
+                                        <td>No summary for function \editWarningType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1621</td>
+                                        <td>No summary for function \deleteWarningType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1664</td>
+                                        <td>No summary for function \getWarrantTypes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1769</td>
+                                        <td>No summary for function \getWarrantTypeDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1805</td>
+                                        <td>No summary for function \editWarrantType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1841</td>
+                                        <td>No summary for function \deleteWarrantType()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1884</td>
+                                        <td>No summary for function \getWeapons()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1979</td>
+                                        <td>No summary for function \getWeaponDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>2012</td>
+                                        <td>No summary for function \editWeapon()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>2045</td>
+                                        <td>No summary for function \deleteWeapon()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>2092</td>
+                                        <td>No summary for function \resetData()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="civActions.php" id="civActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>civActions.php
+                            <small style="float: right;padding-right: 10px;">22</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>61</td>
+                                        <td>No summary for function \getCivilianNamesOwn()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>93</td>
+                                        <td>No summary for function \ncicGetNames()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>173</td>
+                                        <td>No summary for function \ncicGetPlates()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>256</td>
+                                        <td>No summary for function \delete_name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>286</td>
+                                        <td>No summary for function \delete_plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>316</td>
+                                        <td>No summary for function \create_name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>403</td>
+                                        <td>No summary for function \create_plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>461</td>
+                                        <td>No summary for function \create911Call()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>524</td>
+                                        <td>No summary for function \edit_name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>613</td>
+                                        <td>No summary for function \edit_plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>676</td>
+                                        <td>No summary for function \editnameid()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>703</td>
+                                        <td>No summary for function \editplateid()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>730</td>
+                                        <td>No summary for function \create_warrant()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>769</td>
+                                        <td>No summary for function \ncicGetWarrants()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>873</td>
+                                        <td>No summary for function \delete_warrant()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>902</td>
+                                        <td>No summary for function \create_weapon()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>945</td>
+                                        <td>No summary for function \ncicGetWeapons()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1018</td>
+                                        <td>No summary for function \delete_weapon()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1048</td>
+                                        <td>No summary for function \getNumberOfProfiles()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1080</td>
+                                        <td>No summary for function \getNumberOfVehicles()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1112</td>
+                                        <td>No summary for function \getNumberOfWeapons()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="ncicAdminActions.php" id="ncicAdminActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>ncicAdminActions.php
+                            <small style="float: right;padding-right: 10px;">22</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>61</td>
+                                        <td>No summary for function \rejectRequest()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>91</td>
+                                        <td>No summary for function \getIdentityRequests()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>160</td>
+                                        <td>No summary for function \ncicGetNames()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>242</td>
+                                        <td>No summary for function \ncicGetPlates()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>322</td>
+                                        <td>No summary for function \ncicGetWeapons()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>389</td>
+                                        <td>No summary for function \delete_weapon()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>419</td>
+                                        <td>No summary for function \delete_citation()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>449</td>
+                                        <td>No summary for function \delete_arrest()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>479</td>
+                                        <td>No summary for function \delete_warning()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>509</td>
+                                        <td>No summary for function \delete_warrant()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>539</td>
+                                        <td>No summary for function \ncicGetArrests()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>612</td>
+                                        <td>No summary for function \ncicGetWarrants()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>695</td>
+                                        <td>No summary for function \ncicGetCitations()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>768</td>
+                                        <td>No summary for function \ncicGetWarnings()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>839</td>
+                                        <td>No summary for function \getUserList()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>867</td>
+                                        <td>No summary for function \delete_name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>895</td>
+                                        <td>No summary for function \delete_plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>924</td>
+                                        <td>No summary for function \edit_name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1012</td>
+                                        <td>No summary for function \edit_plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1071</td>
+                                        <td>No summary for function \editnameid()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1098</td>
+                                        <td>No summary for function \editplateid()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="logout.php" id="logout.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>logout.php
+                            <small style="float: right;padding-right: 10px;">2</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>22</td>
+                                        <td>No summary for function \logoutResponder()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="search_plate.php" id="search_plate.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>search_plate.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="ncic.php" id="ncic.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>ncic.php
+                            <small style="float: right;padding-right: 10px;">4</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>26</td>
+                                        <td>No summary for function \name()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>204</td>
+                                        <td>No summary for function \plate()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>259</td>
+                                        <td>No summary for function \weapon()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="adminActions.php" id="adminActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>adminActions.php
+                            <small style="float: right;padding-right: 10px;">33</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>Only one @package tag is allowed</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>70</td>
+                                        <td>No summary for function \deleteGroupItem()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>96</td>
+                                        <td>No summary for function \editUserAccount()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>154</td>
+                                        <td>No summary for function \editUserAccountRole()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>199</td>
+                                        <td>No summary for function \delete_user()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>246</td>
+                                        <td>No summary for function \getPendingUsers()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>318</td>
+                                        <td>No summary for function \getPendingUsersReadOnly()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>380</td>
+                                        <td>No summary for function \getRole()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>391</td>
+                                        <td>Argument $id is missing from the Docblock of _getRole</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>391</td>
+                                        <td>No summary for function \_getRole()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>419</td>
+                                        <td>Argument $uid is missing from the Docblock of getUserGroups</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>419</td>
+                                        <td>No summary for function \getUserGroups()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>448</td>
+                                        <td>Argument $uid is missing from the Docblock of getUserGroupsApproved</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>448</td>
+                                        <td>No summary for function \getUserGroupsApproved()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>487</td>
+                                        <td>No summary for function \approveUser()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>539</td>
+                                        <td>No summary for function \rejectUser()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>581</td>
+                                        <td>Argument $gid is missing from the Docblock of getGroupCount</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>581</td>
+                                        <td>No summary for function \getGroupCount()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>611</td>
+                                        <td>Argument $gid is missing from the Docblock of getGroupName</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>611</td>
+                                        <td>No summary for function \getGroupName()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>640</td>
+                                        <td>No summary for function \getUsers()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>782</td>
+                                        <td>No summary for function \suspendUser()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>823</td>
+                                        <td>No summary for function \suspendUserWithReason()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>877</td>
+                                        <td>No summary for function \reactivateUser()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>909</td>
+                                        <td>No summary for function \getUserDetails()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>946</td>
+                                        <td>No summary for function \getUserID()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>979</td>
+                                        <td>Argument $encode is missing from the Docblock of getUserGroupsEditor</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>979</td>
+                                        <td>Argument $userId is missing from the Docblock of getUserGroupsEditor</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>979</td>
+                                        <td>No summary for function \getUserGroupsEditor()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1013</td>
+                                        <td>No summary for function \getCodes()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1062</td>
+                                        <td>No summary for function \getCallHistory()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1137</td>
+                                        <td>No summary for function \delete_callhistory()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1167</td>
+                                        <td>No summary for function \changeUserPassword()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="index.php" id="index.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>index.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="search_name.php" id="search_name.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>search_name.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="jquery-colsolidated.inc.php" id="jquery-colsolidated.inc.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>jquery-colsolidated.inc.php
+                            <small style="float: right;padding-right: 10px;">1</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="responderActions.php" id="responderActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>responderActions.php
+                            <small style="float: right;padding-right: 10px;">8</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>47</td>
+                                        <td>No summary for function \updateCallsign()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>86</td>
+                                        <td>No summary for function \getStatus()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>150</td>
+                                        <td>No summary for function \mdtGetVehicleBOLOS()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>227</td>
+                                        <td>No summary for function \mdtGetPersonBOLOS()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>293</td>
+                                        <td>No summary for function \create_citation()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>380</td>
+                                        <td>No summary for function \create_warning()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>465</td>
+                                        <td>No summary for function \create_arrest()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>                <div class="package-contents">                        <a name="dispatchActions.php" id="dispatchActions.php"></a>
+                        <h3>
+                            <i class="icon-file"></i>dispatchActions.php
+                            <small style="float: right;padding-right: 10px;">34</small>
+                        </h3>
+                        <div>
+                            <table class="table markers table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Line</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>error</td>
+                                        <td>0</td>
+                                        <td>No summary was found for this file</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>108</td>
+                                        <td>No summary for function \addNarrative()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>147</td>
+                                        <td>No summary for function \assignUnit()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>228</td>
+                                        <td>No summary for function \storeCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>257</td>
+                                        <td>No summary for function \clearCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>300</td>
+                                        <td>Argument $callId is missing from the Docblock of clearUnitFromCall</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>300</td>
+                                        <td>Argument $unit is missing from the Docblock of clearUnitFromCall</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>300</td>
+                                        <td>No summary for function \clearUnitFromCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>324</td>
+                                        <td>Argument $unit is missing from the Docblock of freeUnitStatus</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>324</td>
+                                        <td>No summary for function \freeUnitStatus()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>348</td>
+                                        <td>No summary for function \newCall()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>432</td>
+                                        <td>No summary for function \cadGetVehicleBOLOS()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>517</td>
+                                        <td>No summary for function \cadGetPersonBOLOS()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>592</td>
+                                        <td>No summary for function \create_citation()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>679</td>
+                                        <td>No summary for function \create_warning()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>765</td>
+                                        <td>No summary for function \create_warrant()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>804</td>
+                                        <td>No summary for function \delete_citation()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>833</td>
+                                        <td>No summary for function \delete_arrest()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>862</td>
+                                        <td>No summary for function \delete_warning()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>891</td>
+                                        <td>No summary for function \delete_warrant()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>920</td>
+                                        <td>No summary for function \ncicGetArrests()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>991</td>
+                                        <td>No summary for function \ncicGetWarrants()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1074</td>
+                                        <td>No summary for function \ncicGetCitations()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1145</td>
+                                        <td>No summary for function \ncicGetWarnings()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1214</td>
+                                        <td>No summary for function \create_personbolo()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1249</td>
+                                        <td>No summary for function \create_vehiclebolo()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1285</td>
+                                        <td>No summary for function \delete_personbolo()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1314</td>
+                                        <td>No summary for function \delete_vehiclebolo()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1343</td>
+                                        <td>No summary for function \cadGetPersonBOLOSid()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1374</td>
+                                        <td>No summary for function \cadGetVehicleBOLOSid()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1405</td>
+                                        <td>No summary for function \changeaop()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1432</td>
+                                        <td>No summary for function \editPersonBOLOS()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1468</td>
+                                        <td>No summary for function \edit_vehiclebolo()</td>
+                                    </tr>                                    <tr>
+                                        <td>error</td>
+                                        <td>1505</td>
+                                        <td>No summary for function \create_arrest()</td>
+                                    </tr>                            </tbody>
+                            </table>
+                        </div>                </div>        </div>
+    </section>
+    <footer class="row-fluid">
+        <section class="span10 offset2">
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <section class="row-fluid footer-sections">
+                        <section class="span4">                            <h1><i class="icon-code"></i></h1>
+                            <div>
+                                <ul>                                </ul>
+                            </div>
+                        </section>
+                        <section class="span4">                            <h1><i class="icon-bar-chart"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../graphs/class.html">Class Hierarchy Diagram</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="span4">                            <h1><i class="icon-pushpin"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../reports/errors.html">Errors</a></li>
+                                    <li><a href="../reports/markers.html">Markers</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <hr />
+                    Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
+                    onApril 14th, 2021 at 18:34.
+                </section>
+            </section>
+        </section>
+    </footer>
+</div>
+
+</body>
+</html>
