@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'OpenCAD Project'
+copyright = '2021, The OpenCAD Project'
+author = '101Schemes.io, LLC'
 
 release = '0.1'
 version = '0.1.0'
