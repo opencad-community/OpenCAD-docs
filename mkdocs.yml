@@ -11,20 +11,20 @@ markdown_extensions:
     - toc:
         permalink: True
 
-
 plugins:
     - search
     - git-revision-date
 
 theme:
     name: material
+    nav_style: dark
     logo: assets/logo.png
     favicon: assets/logo.png
     palette:
     - media: "(prefers-color-scheme: dark)"
     scheme: slate
     primary: black
-    accent: blue
+    accent: black
     features:
         - navigation.instant
         - navigation.tracking
