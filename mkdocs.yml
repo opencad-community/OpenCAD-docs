@@ -22,9 +22,19 @@ theme:
     favicon: assets/logo.png
     palette:
     - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: black
-    accent: black
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode        
     features:
         - navigation.instant
         - navigation.tracking
