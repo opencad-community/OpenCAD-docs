@@ -8,13 +8,13 @@ OpenCAD is a PHP powered Open Source Computer Aided Dispatch system for roleplay
 
 
 ## Installation
-Take a look at our Install Guides [here](install/install-welcome.md].
+Take a [look at our Install Guides](install/install-welcome.md).
 
 ## Support
 
 Need Help? [View our Documentation](https://guides.opencad.io) which has all the documentation you need.
 
-Still Having Trouble? on the community Discord post your issue in [#general-help](http://discord.io/opencadproject).
+Still Having Trouble? on the community Discord [post your issue in #general-help](http://discord.io/opencadproject).
 
 
 ## Contributing
