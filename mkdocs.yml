@@ -19,11 +19,11 @@ plugins:
 theme:
     name: material
     logo: assets/logo.png
-    favicon: assets/favicon.png
+    favicon: assets/logo.png
     palette:
     - media: "(prefers-color-scheme: dark)"
     scheme: slate
-    primary: blue
+    primary: black
     accent: blue
     features:
         - navigation.instant
