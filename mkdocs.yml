@@ -41,6 +41,8 @@ nav:
         - "Welcome": 'install/install-welcome.md'
         - 'install/cpanel-welcome.md'
         - 'install/directadmin-welcome.md'
+        - 'install/autoinstaller.md'
+        - 'install/manual-install.md'
     - 'Support':
         - 'support/support-welcome.md'
     - 'Developer Reference':
