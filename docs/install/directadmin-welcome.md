@@ -1,7 +1,5 @@
 # Install OpenCAD on DirectAdmin
 
-# Install OpenCAD on cPanel
-
 This guide assumes you are using a paid hosting service and have configured your domain and web hosting appropriately.</i>
 Main steps for successful installation:
 
