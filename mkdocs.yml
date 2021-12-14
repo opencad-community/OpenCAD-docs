@@ -2,7 +2,7 @@ site_name: OpenCAD
 site_description: OpenCAD Documentation
 
 repo_url: "https://github.com/OpenCAD-app/OpenCAD-php"
-edit_uri: "https://github.com/OpenCAD-app/OpenCAD-docs/edit/main/docs/"
+edit_uri: "https://github.com/OpenCAD-app/OpenCAD-docs/docs/"
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -14,6 +14,8 @@ markdown_extensions:
 plugins:
     - search
     - git-revision-date
+    - new-features-notifier
+    - tags
 
 theme:
     name: material
