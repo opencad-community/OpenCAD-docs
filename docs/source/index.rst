@@ -1,3 +1,0 @@
-The OpenCAD Project Documentation
-=====
-
