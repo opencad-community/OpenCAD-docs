@@ -48,18 +48,17 @@ extra_css:
 
 nav:
     - "Index": 'index.md'
+    - "Installation":
+        -'install-welcome.md'
+        - "Install cPanel": 'install/cpanel-welcome.md'
+
     - 'install.md'
     - 'Configuration':
         - 'config.md'
         - 'permissions.md'
     - 'Guides':
         - "Adding Admins": 'install/#adding-an-admin'
-        - 'steamapikey.md'
-        - 'webhook.md'
-        - 'discord-screenshots.md'
-        - 'commands.md'
-        - 'reminders.md'
-        - 'shortcuts.md'
+        - 'discord-screenshots.md'd'
         - 'backups.md'
         - 'updating.md'
     - 'Troubleshooting':
