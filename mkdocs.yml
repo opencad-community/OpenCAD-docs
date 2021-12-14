@@ -41,17 +41,8 @@ nav:
         - "Welcome": 'install/install-welcome.md'
         - 'install/cpanel-welcome.md'
         - 'install/directadmin-welcome.md'
-    - 'Configuration':
-        - 'config.md'
-        - 'permissions.md'
-    - 'Guides':
-        - "Adding Admins": 'install/#adding-an-admin'
-        - 'discord-screenshots.md'
-        - 'backups.md'
-        - 'updating.md'
-    - 'Troubleshooting':
-        - 'troubleshooting.md'
-        - 'supportfile.md'
+    - 'Support':
+        - 'support/support-welcome.md'
     - 'Developer Reference':
-        - 'plugins.md'
-        - 'translating.md'
+        - 'developer/plugins.md'
+        - 'developer/translating.md'
