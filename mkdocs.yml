@@ -38,10 +38,9 @@ extra_css:
 nav:
     - "Index": 'index.md'
     - "Installation":
-        -'install-welcome.md'
+        -'install/install-welcome.md'
             - 'install/cpanel-welcome.md'
             - 'install/directadmin-welcome.md'
-    - 'install.md'
     - 'Configuration':
         - 'config.md'
         - 'permissions.md'
