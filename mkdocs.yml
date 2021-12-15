@@ -1,15 +1,14 @@
 site_name: OpenCAD
 site_description: OpenCAD Documentation
 
-repo_url: "https://github.com/OpenCAD-app/OpenCAD-php"
+repo_url: "https://github.com/OpenCAD-app/OpenCAD-docs"
 edit_uri: "https://github.com/OpenCAD-app/OpenCAD-docs/docs/"
 
 markdown_extensions:
     - pymdownx.highlight:
         linenums: true
     - pymdownx.superfences
-    - toc:
-        permalink: True
+
 
 plugins:
     - search
@@ -37,7 +36,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
     features:
-        - navigation.instant
+        - navigation.tabs
         - navigation.tracking
         - navigation.top
         - search.highlight
