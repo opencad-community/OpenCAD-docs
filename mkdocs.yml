@@ -1,0 +1,61 @@
+site_name: OpenCAD
+site_description: OpenCAD Documentation
+
+repo_url: "https://github.com/OpenCAD-app/OpenCAD-php"
+edit_uri: "https://github.com/OpenCAD-app/OpenCAD-docs/docs/"
+
+markdown_extensions:
+    - pymdownx.highlight:
+        linenums: true
+    - pymdownx.superfences
+    - toc:
+        permalink: True
+
+plugins:
+    - search
+    - git-revision-date
+
+theme:
+    name: material
+    nav_style: dark
+    logo: assets/logo.png
+    favicon: assets/logo.png
+    scheme: slate
+    palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.top
+        - search.highlight
+        - toc.integrate
+
+extra_css:
+    - stylesheets/extra.css
+
+nav:
+    - "Index": 'index.md'
+    - "Installation":
+        - "Welcome": 'install/install-welcome.md'
+        - 'install/cpanel-welcome.md'
+        - 'install/directadmin-welcome.md'
+        - 'install/autoinstaller.md'
+        - 'install/manual-install.md'
+    - 'Support':
+        - 'support/support-welcome.md'
+    - 'Developer Reference':
+        - 'developer/plugins.md'
+        - 'developer/translating.md'
