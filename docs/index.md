@@ -1,6 +1,6 @@
-# Index
+# Welcome
 
-Welcome to the OpenCAD Docs!
+Welcome to the OpenCAD Docs! Use the tabls across the top to navigate the sections and use the sidebar to navigate through modules within the sections.
 
 ## What is OpenCAD?
 

@@ -9,7 +9,6 @@ markdown_extensions:
         linenums: true
     - pymdownx.superfences
 
-
 plugins:
     - search
     - git-revision-date
@@ -46,7 +45,7 @@ extra_css:
     - stylesheets/extra.css
 
 nav:
-    - "Index": 'index.md'
+    - "Home": 'index.md'
     - "Installation":
         - "Welcome": 'install/install-welcome.md'
         - 'install/cpanel-welcome.md'
