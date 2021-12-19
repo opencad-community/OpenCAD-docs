@@ -1,1 +1,0 @@
-# Manually Installing OpenCAD
