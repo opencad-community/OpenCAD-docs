@@ -45,14 +45,19 @@ theme:
 extra_css:
     - stylesheets/extra.css
 
+extra:
+  version:
+    provider: mike
+
 nav:
     - "Index": 'index.md'
     - "Installation":
         - "Welcome": 'install/install-welcome.md'
         - 'install/cpanel-welcome.md'
         - 'install/directadmin-welcome.md'
+        - 'install/iis-install.md'
+        - 'install/dev-xampp-install.md'
         - 'install/autoinstaller.md'
-        - 'install/manual-install.md'
     - 'Support':
         - 'support/support-welcome.md'
     - 'Developer Reference':
