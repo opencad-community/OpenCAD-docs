@@ -9,7 +9,7 @@
 - Recommended but not required: PHP Manager for IIS (helps with configuring PHP on Windows to avoid having to manually enter values into php.ini)
 - database server: either MySQL 5 or MariaDB 10
 
-### Installtaion Steps
+### Installation Steps
 
 1. Extract the archive containing the OpanCAD files into the dorectory that you have chosen for your site content (knowledge of creating web sites in IIS is beyond scope.)
 2. Ensure that the permissions for the directory (via Explorer>properties>security tab) and the site (via sites>website) have full control set for the application pool identity. Each site created in IIS from version 7.0 onwards will be created in its own isolated application pool, with its own virtual identity. Note that these identities are not actual accounts in Windows, so they will not show up as users on the server. 
