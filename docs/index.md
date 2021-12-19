@@ -1,4 +1,4 @@
-# Index
+# Home
 
 Welcome to the OpenCAD Docs!
 
