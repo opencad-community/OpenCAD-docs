@@ -1,4 +1,4 @@
-# Civilian Idnetity Administration
+# Civilian Identity Administration
 
 ## About This Module
 
