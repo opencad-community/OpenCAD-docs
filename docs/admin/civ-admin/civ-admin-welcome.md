@@ -2,4 +2,4 @@
 
 ## About This Module
 
-This section covers administering civilian Identities used by the application.
+This section covers administering civilian identities used by the application.
