@@ -58,6 +58,13 @@ nav:
         - 'install/iis-install.md'
         - 'install/dev-xampp-install.md'
         - 'install/autoinstaller.md'
+    - "Administrator Guides":
+        - "Welcome": 'admin/admin-welcome.md'
+        - "User Administration": 'admin/user-admin/user-admin-welcome.md'
+        - "Civilian Administration": 'admin/civ-admin/civ-admin-welcome.md'
+        - "Data Type Management": 'admin/data-type-mgmt/data-type-mgmt-welcome.md'
+    - "User Guides":
+        - "Welcome": 'user/user-welcome.md'
     - 'Support':
         - 'support/support-welcome.md'
     - 'Developer Reference':
