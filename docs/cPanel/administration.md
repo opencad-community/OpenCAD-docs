@@ -1,11 +1,11 @@
-Setting Up Your Community
+# Setting Up Your Community
 =========================
 
 If you are reading this page, chances are you have completed the installation! If this is true, congratulations on successfully installing OpenCAD! In this section, we will be outlining **what to do after you install OpenCAD**.
 
 On the Dashboard, requests to join the community are approved or rejected. Only moderators or administrators can approve or reject users.
 
-User Management
+ @@ User Management
 ---------------
 
 Depending on your configurations, users should be able to register for accounts. To access users, log into your OpenCAD application and enter the Admin Dashboard. Once logged in, click on **User Management** from the navigation menu on the left of your screen.
@@ -13,8 +13,8 @@ Depending on your configurations, users should be able to register for accounts.
 This dashboard shows you statistics at a glance across all teams. Below this, a table of all users in the application is found. This table allows you to moderate all users easily.
 
 The **Actions** column provides links to click on for the user in that row.
-
-### Actions
+    
+    ### Actions
 
 *   **Edit** - Edit the current user's username, email, identifier, and user groups. (User groups are the departments they belong to.)
 *   **Change Password** - Changes the current user's password.
