@@ -3,8 +3,9 @@
 
 ## System Requirements
 
-OpenCAD Installation Requirements include the following: -* Operating System: Linux or Windows
+OpenCAD Installation Requirements include the following:
 
+ - Operating System: Linux or Windows
  - Webserver: Apache, Nginx, or Internet Information Services
  - PHP: 8.0.10 (recommended), 8.0 (minimum)
  - Database: MariaDB ≥ 10.3 (reccomended), 10.0 (minimum)
